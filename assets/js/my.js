@@ -7,11 +7,11 @@ $(function(){
 			$cancel = $timeline.html();
 			
 			$edit = "<form method='post' id='status-edit'><textarea name='posting' style='height:"+$timeline.height()+"px' class='status-edit'>"+
-			$timeline.html().replace(/<br>/gi,"\n")+"</textarea>"+
+			$timeline.html()+"</textarea>"+
 			"<button type='submit' class='btn btn-dafault'>Edit</button><a class='btn btn-warning status-cancel'>Cancel</a></form>";
 			$timeline.html($edit);
 			$('#status-edit').submit(function(){
-				$timeline.html($(this).find('textarea[name="posting"]').val().replace(/\n/g,"<br />"));
+				$timeline.text($(this).find('textarea[name="posting"]').val().replace(/\n/g,"<br />"));
 				return false;
 			});
 			//cancel editing status
