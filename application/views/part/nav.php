@@ -2,7 +2,7 @@
 	<div class="col-lg-8 col-md-8 col-sm-7 col-left">
 		<div class="name"><a href="front" style='float:left'><img src='assets/img/logo.png'/></a>
 			<ul class='nav-profil'>
-				<li><a href='#'>Zainu Rochim</a></li>
+				<li><a href='front/profil'>Zainu Rochim</a></li>
 				<li><a href='login'>Login</a></li>
 			</ul>
 			<div style='clear:both'></div>

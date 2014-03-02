@@ -670,4 +670,4 @@ body,
 .timeline .status-edit{
 	width:100%;
 }
-/*Adji Gesang*/
+@import "adji.css";

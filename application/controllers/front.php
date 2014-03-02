@@ -22,7 +22,7 @@ class front extends CI_Controller {
 	function contact(){
 		$this->session->set_userdata('nav','Gallery');
 		$data['page'] = "front/contact";
-		$data['content'] = "part/profil";
+		$data['content'] = "part/informasi";
 		$this->load->view('main',$data);
 	}
 	function project(){
@@ -40,7 +40,7 @@ class front extends CI_Controller {
 	function profil(){
 		$this->session->set_userdata('nav','Profil');
 		$data['page'] = "front/profil";
-		$data['content'] = "part/profil";
+		$data['content'] = "part/work";
 		$this->load->view('main',$data);
 	}
 }
