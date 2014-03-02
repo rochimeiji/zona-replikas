@@ -9,20 +9,22 @@
 						<a href="#">
 							
 							<!--your image-->    
-							<img class="img-responsive item-img" src="assets/img/contact/avatar-contact.jpg" alt="Avatar">
+							<iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=id&amp;geocode=+&amp;q=SMK+adi+sanggoro&amp;ie=UTF8&amp;hq=&amp;hnear=&amp;t=m&amp;ll=-6.564404,106.733993&amp;spn=0.006295,0.006295&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=id&amp;geocode=+&amp;q=SMK+adi+sanggoro&amp;ie=UTF8&amp;hq=&amp;hnear=&amp;t=m&amp;ll=-6.564404,106.733993&amp;spn=0.006295,0.006295" style="color:#0000FF;text-align:left">Lihat Peta Lebih Besar</a></small>
 							
 						</a>
 					</div>
 					<div class="panel-body">
 					
 						<!--your name-->
-						<a href="#"><h4 class="item-title">Eldun malosanu</h4></a>
+						<a href="#"><h4 class="item-title">Contact Us</h4></a>
 						
 						<!--your profession / where you live-->
-						<p class="item-category">Freelance web designer, in Los Angeles</p>
+						<p class="item-category">SMK ADI SANGGORO, Bogor</p>
 						
 						<!--your descritpion / why should we contact you-->
-						<p class="item-description">Iam virtutem ex consuetudine vitae sermonisque nostri nostri nostri, quicquid increpuisset, ad salutis suae dispendium existim.</p>
+						<p class="item-description">
+							
+						</p>
 						<hr>
 						
 						<!--social networks-->

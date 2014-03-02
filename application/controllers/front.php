@@ -20,7 +20,7 @@ class front extends CI_Controller {
 		$this->load->view('main',$data);
 	}
 	function contact(){
-		$this->session->set_userdata('nav','Contact');
+		$this->session->set_userdata('nav','Gallery');
 		$data['page'] = "front/contact";
 		$data['content'] = "part/profil";
 		$this->load->view('main',$data);
@@ -35,6 +35,12 @@ class front extends CI_Controller {
 		$data['get_posting'] = $this->timeline->get_posting();
 		$data['page'] = "front/timeline";
 		$data['content'] = "part/work";
+		$this->load->view('main',$data);
+	}
+	function profil(){
+		$this->session->set_userdata('nav','Profil');
+		$data['page'] = "front/profil";
+		$data['content'] = "part/profil";
 		$this->load->view('main',$data);
 	}
 }
