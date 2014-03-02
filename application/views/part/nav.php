@@ -15,7 +15,7 @@
 				$sPage = $this->session->userdata('nav');
 				$nav['Timeline'] = "front/timeline";
 				$nav['Exkul'] = "front/blog";
-				$nav['Gallery'] = "front/contact";
+				$nav['Contact'] = "front/contact";
 				foreach($nav as $page => $url){
 					if($sPage==$page){$act="class='active'";}else{$act='';}
 					echo"<li $act>
