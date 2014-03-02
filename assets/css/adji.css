@@ -1,7 +1,7 @@
 /*Adji Gesang*/
 .header{
 	background:white;
-	height:430px;
+	height:350px;
 	width:100%;
 	border-radius:5px;
 	margin-bottom:5px;
@@ -9,7 +9,7 @@
 .sampul{
 	background:url(../foto/Aurora_39.jpg);
 	background-size:100% 100%;
-	height:350px;
+	height:270px;
 	width:100%;
 	border-radius:5px 5px 0px 0px;
 	margin-bottom:5px;
@@ -19,6 +19,7 @@
 }
 .avatar{
 	width:100px;
+	height:100px;
 	margin:auto;
 	border:3px solid #fff;
 }
@@ -29,9 +30,7 @@
 	border-radius:5px;
 	padding:10px;
 }
-.isi{
-	float:left;
-	width:100%;
-	background:red;
-	padding:5px;
+.ava{
+	width:48px;
+	height:48px;
 }
