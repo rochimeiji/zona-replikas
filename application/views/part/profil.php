@@ -23,7 +23,7 @@
 						
 						<!--your descritpion / why should we contact you-->
 						<p class="item-description">
-							
+							<img src="">asdsada
 						</p>
 						<hr>
 						
