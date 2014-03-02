@@ -1,4 +1,10 @@
 <section>
+	<?php $this->load->view('fitur/posting_role');?>
+<form class='well well-sm' method='post'>
+	Posting Status : <hr style='margin:5px 0px;'>
+	<textarea class='post' rows='3'></textarea>
+	<div style='margin:5px 0px;' class='btn-group'><button type='submit' class='btn btn-primary'>Edit</button><a class='btn btn-default status-cancel'>Cancel</a></div>
+</form>
 <?php
 	if($get_posting){
 		foreach($get_posting as $row){
@@ -9,17 +15,17 @@
 			<img src='assets/foto/<?php echo $row['foto_user'];?>' />
 		</div>
 		<div class='status'>
-		<div class='name'><?php echo $row['nama_user'];?> <small><i class='glyphicon glyphicon-time'></i> <?php echo $row['posting_date'];?></small>
+		<div class='name'><?php echo $row['nama_user'];?> <small><i class='glyphicon glyphicon-time'></i> <?php echo $row['date_posting'];?></small>
 		<?php if($this->all->role($row['id_user'])){ ?>
 		  <div class="btn-group pull-right aksistatus">
-			<button type="button" class="btn btn-sm btn-default dropdown-toggle" data-toggle="dropdown"><span class="caret"></span></button>
+			<button type="button" class="dropdown-toggle" data-toggle="dropdown"><span class="caret"></span></button>
 			<ul class="dropdown-menu" role="menu">
 			  <li><a timeline-id='<?php echo $row['id_posting'];?>' timeline-aksi='edit'><i class='glyphicon glyphicon-edit'></i> Edit</a></li>
 			  <li><a timeline-id='<?php echo $row['id_posting'];?>' timeline-aksi='delete'><i class='glyphicon glyphicon-remove'></i> Delete</a></li>
 			</ul>
 		  </div>
 		<?php } ?>
-		</div><p timeline-status='<?php echo $row['id_posting'];?>'><?php echo $row['posting'];?></p></div>
+		</div><p pre timeline-status='<?php echo $row['id_posting'];?>'><?php echo $row['posting'];?></p></div>
 		<div class='cl'></div>
 	</div>
 	<?php
@@ -32,18 +38,11 @@
 				<img src='assets/foto/<?php echo $row2['foto_user'];?>' />
 			</div>
 			<div class='status'>
-			<div class='name'><?php echo $row2['nama_user'];?> <small><i class='glyphicon glyphicon-time'></i> <?php echo $row2['komentar_date'];?></small>
+			<div class='name'><?php echo $row2['nama_user'];?> <small><i class='glyphicon glyphicon-time'></i> <?php echo $row2['date_komentar'];?></small>
 			<?php if($this->all->role($row2['id_user'])){ ?>
-			  <div class="btn-group pull-right aksistatus">
-				<button type="button" class="btn btn-sm btn-default dropdown-toggle" data-toggle="dropdown"><span class="caret"></span></button>
-				<ul class="dropdown-menu" role="menu">
-				  <li><a comment-id='<?php echo $row2['id_user'];?>' comment-aksi='edit'><i class='glyphicon glyphicon-edit'></i> Edit</a></li>
-				  <li><a comment-id='<?php echo $row2['id_user'];?>' comment-aksi='delete'><i class='glyphicon glyphicon-remove'></i> Delete</a></li>
-				</ul>
-			  </div>
+			<a class='pull-right close'>x</a>
 			<?php } ?>
-			</div>
-			<?php echo $row2['komentar'];?>
+			</div><p pre><?php echo $row2['komentar'];?></p>
 			</div>
 			<div class='cl'></div>
 		</div>

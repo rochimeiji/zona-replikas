@@ -6,9 +6,11 @@ class ajax extends CI_Controller {
 		parent::__construct();
 	}
 	function status_edit(){
-		$data = array('posting'=>post('posting'));
-		$this->db->where('id_posting',1);
-		$this->db->update('posting',$data);
+		if(post('id_posting')){
+			$data = array('posting'=>post('posting'));
+			$this->db->where('id_posting',post('id_posting'));
+			$this->db->update('posting',$data);
+		}
 	}
 }
 

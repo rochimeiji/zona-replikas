@@ -29,6 +29,6 @@
   <script src='<?php echo base_url();?>assets/js/plugins/mixitup/jquery.mixitup.min.js'></script>
   <script src='<?php echo base_url();?>assets/js/plugins/smooth-scroll/jquery.smooth-scroll.min.js'></script>
   <script src='<?php echo base_url();?>assets/js/main.js'></script>
-  <script src='<?php echo base_url();?>assets/js/autogrow.js'></script>
+  <script src='<?php echo base_url();?>assets/js/jquery.elastic.source.js'></script>
   <script src='<?php echo base_url();?>assets/js/my.js'></script>
 </html>

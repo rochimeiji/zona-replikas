@@ -1,6 +1,12 @@
+@import "adji.css";
 @import url(http://fonts.googleapis.com/css?family=Lato:300,400,400italic|Open+Sans+Condensed:300,700|Pacifico);
 body {
   font-family: 'Lato', sans-serif;
+}
+[pre]{
+	display: block;
+    unicode-bidi: embed;
+	white-space:pre-wrap;
 }
 .heading {
   font-family: 'Open Sans Condensed', sans-serif;
@@ -627,7 +633,6 @@ body,
 	vertical-align:top;
 	padding-left:20px;
 	width:100%;
-	height:100px;
 }
 .timeline .main .photo{
 	width:100px;
@@ -660,14 +665,17 @@ body,
 .timeline .comment .status{
 	height:70px;
 }
-.timeline .status textarea{
-	box-shadow:inset 0px 0px 3px #777;
-	border:none;
+.timeline .comment .close{
+	visibility:hidden;
 }
-.timeline .status textarea:focus{
+.timeline .comment:hover .close{
+	visibility:visible;
+}
+textarea.post{
+	width:100%;
+	box-shadow:inset 0px 0px 3px #777;
+	border:none;'
+}
+textarea.post:focus{
 	box-shadow:inset 0px 0px 3px #777 !important;
 }
-.timeline .status-edit{
-	width:100%;
-}
-@import "adji.css";
