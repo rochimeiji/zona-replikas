@@ -20,7 +20,7 @@ class front extends CI_Controller {
 		$this->load->view('main',$data);
 	}
 	function contact(){
-		$this->session->set_userdata('nav','Gallery');
+		$this->session->set_userdata('nav','Contact');
 		$data['page'] = "front/contact";
 		$data['content'] = "part/profil";
 		$this->load->view('main',$data);
