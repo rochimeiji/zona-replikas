@@ -1,21 +1,43 @@
-<div style='background:red;min-height:100%'>
+<div style='background:url(assets/foto/images.jpg);min-height:100%'>
 	<section>
 		<div class="header">
 			<div class="sampul">
-			
+				  <img class="media-object img-circle avatar" src="assets/img/blog/avatar.jpg" alt="miniature-comment" width="80"><br>
+				  <label style="font-size:14pt;font-weight:bold;">Adji Gesang</label><br>
+				  jadbsajbdasdhasbfhbasc asbasccac ahcau caiu cahsdklfhushfdsf sdfhsduhfs fsd fsdu fusd f dsuf dsuhf ashdbhsabd as dasdasdh asd asd asg dashd sad as dashdasd<br>
+				  Location :
 			</div>
-			<table border="1" style="margin:5px;width:100%;">
+			<table border="0" style="margin:5px;width:40%;float:left;">
 				<tr>
-					<td>
-							<label style="color:#6c6c6c;font-size:10pt;">Post</label><br>
-							<label style="color:#6c6c6c;font-size:13pt;">1113</label>
-					</td>
-					<td rowspan="2" style="float:right;">
-						<button type="button" class="btn btn-default btn-sm"><span class="glyphicon glyphicon-cog"></span> Edit profil</button>
-					</td>
+					<td style="width:70px;"><center><label style="font-size:15pt;font-weight:bold;">0</label></center></td>
+					<td style="width:70px;"><center><label style="font-size:15pt;font-weight:bold;">0</label></center></td>
+					<td style="width:70px;"><center><label style="font-size:15pt;font-weight:bold;">0</label></center></td>
+					
 				</tr>
 				<tr>
-					<td></td>
+					<td><center> Post</center></td>
+					<td><center> Follower</center></td>
+					<td><center> Following</center></td>
+				</tr>
+			</table>
+			<table border="0"  style="margin:5px;width:40%;float:right;">
+				<tr>
+					<td class="text-right">
+						<button type="button" class="btn btn-default btn-sm"><span class="glyphicon glyphicon-cog"></span> Edit Profile</button>
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div class="post">
+			<label style="font-size:15pt;">Post</label><hr>
+			
+			<table border="1">
+				<tr>
+					<td>asd</td>
+				</tr>
+				<tr>
+					<td>fdg</td>
+					<td rowspan="2">yth</td>
 				</tr>
 			</table>
 		</div>

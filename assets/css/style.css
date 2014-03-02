@@ -673,9 +673,12 @@ body,
 }
 textarea.post{
 	width:100%;
+<<<<<<< HEAD
 	box-shadow:inset 0px 0px 3px #777;
 	border:none;'
 }
 textarea.post:focus{
 	box-shadow:inset 0px 0px 3px #777 !important;
+=======
+>>>>>>> 72441569cd3916e88319b0fad38b9dcf56a32999
 }
